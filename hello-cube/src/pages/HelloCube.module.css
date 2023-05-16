@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -8,26 +10,19 @@
   pointer-events: none;
 }
 
-.main {
+.header {
   background-color: #282c34;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .link {
   color: #b318f0;
-}
-
-.header {
-  background-color: hsl(220, 33%, 55%);
-  padding: 16px;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.content {
-  margin-top: 32px;
 }
 
 @keyframes logo-spin {
