@@ -10,10 +10,13 @@
     "sourceType": "module"
   },
   "plugins": [
-    "@typescript-eslint"
+    // "@typescript-eslint"
   ],
   "rules": {
-    "no-unused-vars": "off"
+    "no-unused-vars": "off",
+    "no-unsafe-argument": "off",
+    "no-unsafe-call": "off",
+    "no-unsafe-assignment": "off"
   },
   "globals": {
     "navigator": false,
